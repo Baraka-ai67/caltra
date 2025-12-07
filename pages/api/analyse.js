@@ -15,7 +15,7 @@ export default async function handler(req, res) {
 
     // ---- AI FOOD DETECTION MODEL ----
     const hfResp = await fetch(
-      "https://api-inference.huggingface.co/models/nateraw/food-classification",
+      "https://api-inference.huggingface.co/modelsardaocak/llava-1.5-7b-food-calorie-estimator",
       {
         headers: {
           Authorization: `Bearer ${process.env.HF_TOKEN}`,
